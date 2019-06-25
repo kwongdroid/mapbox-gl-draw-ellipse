@@ -23,9 +23,6 @@ const draw = new MapboxDraw({ modes });
 draw.changeMode('draw_ellipse', { eccentricity: 0.8, divisions: 60 });
 ```
 
-Once a ellipse is created, 1 event is fired:
-- `draw.create` with the created ellipse
-
 ### 构建
 
 `yarn build` will do it.
